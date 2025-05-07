@@ -37,7 +37,11 @@ Rules can be written like
 
 # Tasks we Can do with Husky
 Lint staged files --> Formatting --> pre-commit
+
 Run tests before push --> Run tests before push --> pre-push
+
 Enforce commit message style --> Validating commit messages --> commit-msg
+
 Prevent debug code commits --> Block console.log or TODOs --> pre-commit
+
 Type check code--> Ensure type safety with TypeScript --> pre-commit
